@@ -20,4 +20,5 @@
 
 #define BTM_DEF_LOCAL_NAME        "HTC One E8"
 
+#define BLE_VND_INCLUDED FALSE
 #endif
