@@ -1,26 +1,21 @@
-# Device configuration for HTC One (M8)
+# Device configuration for HTC One (E8)
 
 ## Spec Sheet
 
 | Feature                 | Specification                     |
 | :---------------------- | :-------------------------------- |
-| CPU                     | Quad-core 2.3 GHz Krait 400       |
-| Chipset                 | Qualcomm MSM8974AB Snapdragon 801 |
+| CPU                     | Quad-core 2.5 GHz Krait 400       |
+| Chipset                 | Qualcomm MSM8974AC Snapdragon 801 |
 | GPU                     | Adreno 330                        |
 | Memory                  | 2GB RAM                           |
 | Shipped Android Version | 4.4.2                             |
 | Storage                 | 16/32 GB                          |
 | MicroSD                 | Up to 128GB                       |
 | Battery                 | 2600 mAh                          |
-| Dimensions              | 146.4 x 70.6 x 9.4 mm             |
+| Dimensions              | 146.42 x 70.67 x 9.85 mm          |
 | Display                 | 1080 x 1920 pixels, Super LCD3    |
-| Camera                  | Dual 4 MP, 2688х1520 pixels       |
-| Release Date            | March 2014                        |
-
-
-## Device Picture
-
-![HTC One M8](http://i.imgur.com/zIRfcMC.png "HTC One M8")
+| Camera                  | 13 MP, 4224х2368 pixels           |
+| Release Date            | July 2014                         |
 
 ## Copyright
 

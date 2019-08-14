@@ -27,8 +27,8 @@
 # variant, so that it gets overwritten by the parent (which goes
 # against the traditional rules of inheritance).
 
-# Inherit from common m8-common
--include device/htc/m8-common/BoardConfigCommon.mk
+# Inherit from common e8-common
+-include device/htc/e8-common/BoardConfigCommon.mk
 
 # Model Ids
 # 0P6B10000 - International
@@ -39,24 +39,24 @@
 # 0P6B70000 - Sprint
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := htc_m8,htc_m8whl,htc_m8wl,m8,m8wl,m8wlv,m8vzw,m8whl,m8spr
+TARGET_OTA_ASSERT_DEVICE := htc_e8,htc_mecwhl,htc_mectl,htc_mecul,htc_mecul_emea
 
 # Kernel
-TARGET_KERNEL_CONFIG := m8_defconfig
+TARGET_KERNEL_CONFIG := e8_defconfig
 
 # Bluetooth
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/htc/m8/bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/htc/e8/bluetooth
 
 # HIDL
-DEVICE_MANIFEST_FILE += device/htc/m8/manifest.xml
+DEVICE_MANIFEST_FILE += device/htc/e8/manifest.xml
 
 # Partitions
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 1073741824
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 13153337344
 
 # Vendor Init
-TARGET_INIT_VENDOR_LIB := libinit_m8
-TARGET_RECOVERY_DEVICE_MODULES := libinit_m8
+TARGET_INIT_VENDOR_LIB := libinit_e8
+TARGET_RECOVERY_DEVICE_MODULES := libinit_e8
 
 # Inherit from the proprietary version
--include vendor/htc/m8/BoardConfigVendor.mk
+-include vendor/htc/e8/BoardConfigVendor.mk
