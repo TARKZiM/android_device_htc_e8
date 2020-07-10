@@ -30,6 +30,9 @@
 # Inherit from common e8-common
 -include device/htc/e8-common/BoardConfigCommon.mk
 
+# Inherit PN547 board flags from e8-common
+-include device/htc/e8-common/nfc/board_pn547.mk
+
 # Model Ids
 # 0P6B10000 - International
 # 0P6B12000 - AT&T/Dev Edition
