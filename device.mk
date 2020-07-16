@@ -17,9 +17,6 @@
 # Local overlays
 DEVICE_PACKAGE_OVERLAYS += device/htc/e8/overlay
 
-# NFC
-$(call inherit-product, device/htc/e8-common/nfc/product_pn547.mk)
-
 # Recorder
 PRODUCT_PACKAGES += \
     Recorder
