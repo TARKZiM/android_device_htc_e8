@@ -69,7 +69,7 @@ void property_override(char const prop[], char const value[], bool add = true)
 
 void common_properties()
 {
-    property_set("rild.libargs", "-d /dev/smd0");
+    property_set("vendor.rild.libargs", "-d /dev/smd0");
     property_set("ro.ril.hsdpa.category", "14");
     property_set("ro.ril.hsxpa", "4");
     property_set("ro.ril.disable.cpc", "1");
